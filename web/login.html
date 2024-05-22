@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+</head>
+<body>
+    <h1>User Login</h1>
+    <h2>Age Gated Service</h2>
+    <form id="ageGatedLoginForm">
+        <label for="userId">User ID:</label>
+        <input type="text" id="ageGatedUserId" required><br>
+        <label for="ethereumId">Ethereum ID:</label>
+        <input type="text" id="ageGatedEthereumId" required><br>
+        <button type="submit">Login</button>
+    </form>
+    <div id="ageGatedLoginResult"></div>
+
+    <h2>Non Age Gated Service</h2>
+    <form id="nonAgeGatedLoginForm">
+        <label for="userId">User ID:</label>
+        <input type="text" id="nonAgeGatedUserId" required><br>
+        <label for="ethereumId">Ethereum ID:</label>
+        <input type="text" id="nonAgeGatedEthereumId" required><br>
+        <button type="submit">Login</button>
+    </form>
+    <div id="nonAgeGatedLoginResult"></div>
+
+    <script src="login.js"></script>
+</body>
+</html>
